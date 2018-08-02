@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<processes>
+    <process name="inventory">
+        <state current="411">
+            <edit>1</edit>
+            <changeState>412,415</changeState>
+            <role>1,5</role>
+            <approval>1</approval>
+            <notification>1</notification>
+        </state>
+        <state current="412">
+            <changeState>413,415</changeState>
+            <role>1,3,4,5</role>
+        </state>
+        <state current="413">
+            <changeState>414,415</changeState>
+            <role>1,3,4,5</role>
+
+        </state>
+        <state current="414">
+            <changeState>416</changeState>
+            <role>1,4,5</role>
+
+        </state>
+        <state current="415">
+            <changeState>416</changeState>
+            <role>1,4,5</role>
+
+        </state>
+    </process>
+    <process name="pagesPermission">
+        <page name="add-company.php">
+           <role>1</role>
+        </page>
+		<page name="company.php">
+           <role>1</role>
+        </page>
+		<page name="company-list.php">
+           <role>1</role>
+        </page>
+        <page name="employee.php">
+           <role>1,2,4,7,5,8</role>
+        </page>
+		<page name="add-employee.php">
+           <role>1,4,7</role>
+        </page>
+		<page name="view-employee-details.php">
+           <role>1,2,3,4,5,6,7,8</role>
+        </page>
+		<page name="suppliers.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="add-supplier.php">
+           <role>1,4,5</role>
+        </page>
+		<page name="suppliers-list.php">
+           <role>1,2,4,5,8</role>
+        </page>		
+		<page name="dashboard-machine-tools.php">
+		 <role>1,2,4,5,8</role>
+        </page>
+		<page name="update-sim-inventory.php">
+           <role>1,2,4,5</role>
+        </page>
+		<page name="upload-invoice.php">
+		<role>1,2</role>
+		</page>
+		<page name="update-office-item.php">
+           <role>1,2,4,5</role>
+        </page>
+		<page name="update-machine-tools.php">
+           <role>1,2,4,5</role>
+        </page>
+		<page name="suppliers-new.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="upload-invoices.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="dashboard-officeitem.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="dashboard-siminventory.php">
+           <role>1,2,4,5,8</role>
+        </page>		
+		<page name="dashboard-hardware.php">
+           <role>1,2,4,5,8</role>
+        </page>	
+		<page name="update-hardware-items.php">
+           <role>1,2,4,5</role>
+        </page>
+		<page name="supplier-types-list.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="technician-scheduling.php">
+           <role>1,4,8</role>
+        </page>
+		<page name="supplier-types.php">
+           <role>1,4,5,8</role>
+        </page>
+		<page name="support.php">
+           <role>1,4,6,8</role>
+        </page>
+		<page name="supprt-list.php">
+           <role>1,4,6,8</role>
+        </page>
+		<page name="add-support.php">
+           <role>1,4,6,8</role>
+        </page>
+		<page name="sim-inventory.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="sim-inventory_list.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="purchase.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="add-purchase.php">
+		   <role>1,2,4,5</role>
+		</page>
+		<page name="purchase-list.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="office-item.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="office-item-list.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="machine-tools.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="emp-hrd-inventory-list.php">
+           <role>1,2,3,4,5,6,7,8</role>
+        </page>
+		<page name="emp-sim-inventory-list.php">
+           <role>1,2,3,4,5,6,7,8</role>
+        </page>
+		<page name="emp-machine-inventory-list.php">
+           <role>1,2,3,4,5,6,7,8</role>
+        </page>
+		<page name="emp-office-inventory-list.php">
+           <role>1,2,3,4,5,6,7,8</role>
+        </page>		
+		<page name="machine-tools-list.php">
+           <role>1,4,5,8</role>
+        </page>
+		<page name="hardware-inventory.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="hardware-inventory-list.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="customers.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="customers-list.php">
+           <role>1,2,4,5,8</role>
+        </page>
+		<page name="add-customer.php">
+		   <role>1,4,5</role>
+		</page>
+        <page name="inventory.php">
+           <role>1,4,5</role>
+        </page>
+		<page name="audit.php">
+		   <role>1,4</role>
+		</page>
+        <page name="audit-list.php">
+		   <role>1,4</role>
+		</page>
+		<page name="change-password.php">
+		   <role>1,2,3,4,5,6,7,8</role>
+		</page>
+		<page name="view-support.php">
+		   <role>1,4,6</role>
+		</page>
+		<page name="po-list.php">
+		   <role>1,4</role>
+		</page>
+        <page name="add-po.php">
+		   <role>1,4</role>
+		</page>
+        <page name="add-customer-items.php">
+		   <role>1,4,5</role>
+		</page>
+		 <page name="accept-machine.php">
+            <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="reject-machine.php">
+           <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="accept-sim.php">
+            <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="reject-sim.php">
+           <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="accept-hrd-inventory.php">
+           <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="reject-hrd-inventory.php">
+            <role>1,2,3,4,5,6,7,8</role>
+        </page> <page name="accept-office-inventory.php">
+              <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="reject-office-inventory.php">
+              <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="add-new-items.php">
+              <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="dashboard-invoice.php">
+              <role>1,2,3,4,5,6,7,8</role>
+        </page>
+        <page name="invoices.php">
+              <role>1,2,3,4,5,6,7,8</role>
+        </page>
+    </process>
+	<process name="inventoryMovement">
+		<state name="approval_pending">
+			<role>1,2,4</role>
+		</state>
+	</process>
+	<process name="menuPermissions">
+		<state name="employee">
+			<role>1,4,7,5,8</role>
+		</state>
+		<state name="company">
+			<role>1</role>
+		</state>
+		<state name="suppliers">
+			<role>1,2,4,5,8</role>
+		</state>
+		<state name="customers">
+			<role>1,2,4,5,8</role>
+		</state>
+		<state name="purchase">
+			<role>1,2,4,5,8</role>
+		</state>
+		<state name="inventory">
+			<role>1,2,4,5,8</role>
+		</state>
+		<state name="support">
+			<role>1,2,4,6,8</role>
+		</state>
+		<state name="audit">
+			<role>1,4</role>
+		</state>
+		<state name="usermanual">
+			<role>1,2,3,4,5,6,7</role>
+		</state>
+		<state name="managepo">
+			<role>1,4</role>
+		</state>
+    <state name="invoices">
+      <role>1,2,3,4,5,6,7</role>
+    </state>
+	</process>
+</processes>
